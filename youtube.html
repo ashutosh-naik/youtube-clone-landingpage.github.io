@@ -1,0 +1,2368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon/youtube.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <title>(3) YouTube</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="left-section">
+        <button class="hamburger-menu-button">
+          <img
+            class="hamburger-menu"
+            src="icons/menu.svg"
+            alt="hamburger-menu"
+          />
+        </button>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img
+            class="youtube-logo"
+            src="logo/youtube-logo.svg"
+            alt="youtube-logo"
+          />
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search-icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/mic.svg"
+            alt="voice-search-icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <button class="upload-icon-button">
+            <img
+              class="upload-icon"
+              src="icons/create.svg"
+              alt="video-upload-icon"
+            />
+            <div class="tooltip">Create</div>
+          </button>
+        </div>
+        <div class="notifications-icon-container">
+          <button class="notifications-icon-button">
+            <img
+              class="notification-icon"
+              src="icons/notifications.svg"
+              alt="notifications-icon"
+            />
+            <div class="notifications-count">3</div>
+            <div class="tooltip">Notifications</div>
+          </button>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-pictures/my-channel-picture.jpg"
+          alt="my-profile-picture"
+        />
+      </div>
+    </header>
+
+    <!-- Sidebar Nav -->
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="home-button" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="explore-button" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="subscription-button" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/history.svg" alt="history-button" />
+        <div>History</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shopping.svg" alt="shopping-button" />
+        <div>Shopping</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/music.svg" alt="music-button" />
+        <div>Music</div>
+      </div>
+    </nav>
+
+    <!-- Main Content/Section -->
+    <main>
+      <section class="video-grid">
+        <!-- 1 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/OFvXuyITwBI?si=Tr9h5SVbf-3I0BBb"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-1.jpg"
+                alt="Apple Vision Pro Impressions!"
+              />
+              <div class="video-time">20:11</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@mkbhd" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-1.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-1.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Marques Brownlee</div>
+                    <div class="channel-tooltip-stats">17.6M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/OFvXuyITwBI?si=ijhvoRHx3iVOqDVR"
+                target="_blank"
+              >
+                <p class="video-title">Apple Vision Pro Impressions!</p>
+              </a>
+              <a href="https://www.youtube.com/@mkbhd" target="_blank">
+                <p class="video-author">Marques Brownlee &#10003;</p>
+              </a>
+              <p class="video-stats">17M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/85-p9EIEVUA?si=Ea-VkF8b8D6hV2Rv"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-2.jpg"
+                alt="It missed us by 9 days"
+              />
+              <div class="video-time">11:18</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@physicsgirl" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-2.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-2.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Physics Girl</div>
+                    <div class="channel-tooltip-stats">2.79M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/85-p9EIEVUA?si=Ea-VkF8b8D6hV2Rv"
+                target="_blank"
+              >
+                <p class="video-title">It missed us by 9 days</p>
+              </a>
+              <a href="https://www.youtube.com/@physicsgirl" target="_blank">
+                <p class="video-author">Physics Girl &#10003;</p>
+              </a>
+              <p class="video-stats">7.2M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/bOQxOthLSCA?si=re7UEZcGoVnQG6pI"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-3.jpg"
+                alt="What Happens When You Quit Alcohol?"
+              />
+              <div class="video-time">9:44</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@AsapSCIENCE" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-3.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-3.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">AsapSCIENCE</div>
+                    <div class="channel-tooltip-stats">10.4M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/bOQxOthLSCA?si=re7UEZcGoVnQG6pI"
+                target="_blank"
+              >
+                <p class="video-title">What Happens When You Quit Alcohol?</p>
+              </a>
+              <a href="https://www.youtube.com/@AsapSCIENCE" target="_blank">
+                <p class="video-author">AsapSCIENCE &#10003;</p>
+              </a>
+              <p class="video-stats">3.8M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/If61baWF4GE?si=53mZtW3X8zBpx8ZY"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-4.jpg"
+                alt="Why Russia is Invading Ukraine"
+              />
+              <div class="video-time">31:56</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@RealLifeLore" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-4.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-4.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">RealLifeLore</div>
+                    <div class="channel-tooltip-stats">7.12M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/If61baWF4GE?si=53mZtW3X8zBpx8ZY"
+                target="_blank"
+              >
+                <p class="video-title">Why Russia is Invading Ukraine</p>
+              </a>
+              <a href="https://www.youtube.com/@RealLifeLore" target="_blank">
+                <p class="video-author">RealLifeLore &#10003;</p>
+              </a>
+              <p class="video-stats">18M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/e_04ZrNroTo?si=EAl5ipH760jlUKop"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-5.jpg"
+                alt="Wheels on the Bus | CoComelon Nursery Rhymes & Kids Songs"
+              />
+              <div class="video-time">3:49</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@CoComelon" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-5.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-5.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Cocomelon - Nursery Rhymes
+                    </div>
+                    <div class="channel-tooltip-stats">165M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/e_04ZrNroTo?si=EAl5ipH760jlUKop"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Wheels on the Bus | CoComelon Nursery Rhymes &#38; Kids Songs
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@CoComelon" target="_blank">
+                <p class="video-author">Cocomelon - Nursery Rhymes &#9834;</p>
+              </a>
+              <p class="video-stats">5.5B views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/kRr9LQ7mZ_A?si=y8eHb9e47PZf2ra3"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-6.jpg"
+                alt="12 Habits That Changed My Life"
+              />
+              <div class="video-time">17:43</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@mattdavella" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-6.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-6.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Matt D'Avella</div>
+                    <div class="channel-tooltip-stats">3.75M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/kRr9LQ7mZ_A?si=Ljlkkvt_0YGpk_RD"
+                target="_blank"
+              >
+                <p class="video-title">12 Habits That Changed My Life</p>
+              </a>
+              <a href="https://www.youtube.com/@mattdavella" target="_blank">
+                <p class="video-author">Matt D'Avella &#10003;</p>
+              </a>
+              <p class="video-stats">6.8M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/YXXlSG-du7c?si=4xKkwFSAgULKIsz-"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-7.jpg"
+                alt="Dude Perfect Goes to SPACE"
+              />
+              <div class="video-time">13:10</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@dudeperfect" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-7.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-7.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Dude Perfect</div>
+                    <div class="channel-tooltip-stats">59.7M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/YXXlSG-du7c?si=4xKkwFSAgULKIsz-"
+                target="_blank"
+              >
+                <p class="video-title">Dude Perfect Goes to SPACE</p>
+              </a>
+              <a href="https://www.youtube.com/@dudeperfect" target="_blank">
+                <p class="video-author">Dude Perfect &#10003;</p>
+              </a>
+              <p class="video-stats">33M views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/N1TTiLx5IPc?si=mnu0yHsr7GXQoUNl"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-8.jpg"
+                alt="Inside a Breathtaking Desert Mansion That Looks Like A Fossil | Unique Spaces | Architectural Digest"
+              />
+              <div class="video-time">14:41</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@Archdigest/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-8.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-8.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Architectural Digest</div>
+                    <div class="channel-tooltip-stats">6.29M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/N1TTiLx5IPc?si=mnu0yHsr7GXQoUNl"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Inside a Breathtaking Desert Mansion That Looks Like A Fossil
+                  | Unique...
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@Archdigest" target="_blank">
+                <p class="video-author">Architectural Digest &#10003;</p>
+              </a>
+              <p class="video-stats">2.7M views &#183; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/uYPbbksJxIg?si=ngDCIMBNZkFGoF8O"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-9.jpg"
+                alt="Oppenheimer | New Trailer"
+              />
+              <div class="video-time">3:07</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@UniversalPictures/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-9.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-9.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Universal Pictures</div>
+                    <div class="channel-tooltip-stats">8.16M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/uYPbbksJxIg?si=ngDCIMBNZkFGoF8O"
+                target="_blank"
+              >
+                <p class="video-title">Oppenheimer | New Trailer</p>
+              </a>
+              <a
+                href="https://www.youtube.com/@UniversalPictures/"
+                target="_blank"
+              >
+                <p class="video-author">Universal Pictures &#10003;</p>
+              </a>
+              <p class="video-stats">62M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/_yDm51-lR2I?si=9cNfjwRCiVNN3Gkt"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-10.jpg"
+                alt="8 Desserts in 1 Sheet Tray"
+              />
+              <div class="video-time">2:08</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@buzzfeedtasty/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-10.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-10.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Tasty</div>
+                    <div class="channel-tooltip-stats">21.1M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/_yDm51-lR2I?si=9cNfjwRCiVNN3Gkt"
+                target="_blank"
+              >
+                <p class="video-title">8 Desserts in 1 Sheet Tray</p>
+              </a>
+              <a href="https://www.youtube.com/@buzzfeedtasty/" target="_blank">
+                <p class="video-author">Tasty &#10003;</p>
+              </a>
+              <p class="video-stats">57M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/SrU9YDoXE88?si=g49cOWXYKJmFfrhQ"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-11.jpg"
+                alt="How To Count Past Infinity"
+              />
+              <div class="video-time">23:46</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@Vsauce/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-11.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-11.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Vsauce</div>
+                    <div class="channel-tooltip-stats">19.8M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/SrU9YDoXE88?si=g49cOWXYKJmFfrhQ"
+                target="_blank"
+              >
+                <p class="video-title">How To Count Past Infinity</p>
+              </a>
+              <a href="https://www.youtube.com/@Vsauce/" target="_blank">
+                <p class="video-author">Vsauce &#10003;</p>
+              </a>
+              <p class="video-stats">23M views &#183; 7 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/84WIaK3bl_s?si=YFCVRAoqsTSF_3Ur"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-12.jpg"
+                alt="THE $21,000 FIRST CLASS AIRPLANE SEAT"
+              />
+              <div class="video-time">9:05</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@casey/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-12.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-12.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">CaseyNeistat</div>
+                    <div class="channel-tooltip-stats">12.6M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/84WIaK3bl_s?si=YFCVRAoqsTSF_3Ur"
+                target="_blank"
+              >
+                <p class="video-title">THE $21,000 FIRST CLASS AIRPLANE SEAT</p>
+              </a>
+              <a href="https://www.youtube.com/@casey/" target="_blank">
+                <p class="video-author">CaseyNeistat &#10003;</p>
+              </a>
+              <p class="video-stats">78M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/dEfwjZZeBC4?si=LGV6aqQ_prrSLtuW"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-13.jpg"
+                alt="HOW TO FILM YOURSELF"
+              />
+              <div class="video-time">6:34</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@PeterMcKinnon/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-13.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-13.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Peter McKinnon</div>
+                    <div class="channel-tooltip-stats">5.89M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/dEfwjZZeBC4?si=LGV6aqQ_prrSLtuW"
+                target="_blank"
+              >
+                <p class="video-title">HOW TO FILM YOURSELF</p>
+              </a>
+              <a href="https://www.youtube.com/@PeterMcKinnon/" target="_blank">
+                <p class="video-author">Peter McKinnon &#10003;</p>
+              </a>
+              <p class="video-stats">2.6M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/R8uZfwJMkqM?si=uxTxyBgvlf4jQLcc"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-14.jpg"
+                alt="How To Make People Respect You If You're Quiet"
+              />
+              <div class="video-time">9:10</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@Charismaoncommand/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-14.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-14.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Charisma on Command</div>
+                    <div class="channel-tooltip-stats">6.36M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/R8uZfwJMkqM?si=uxTxyBgvlf4jQLcc"
+                target="_blank"
+              >
+                <p class="video-title">
+                  How To Make People Respect You If You're Quiet
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@Charismaoncommand/"
+                target="_blank"
+              >
+                <p class="video-author">Charisma on Command &#10003;</p>
+              </a>
+              <p class="video-stats">12M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/uRCX33VWOX0?si=ZC3M8RIxxdYb8Zsr"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-15.jpg"
+                alt="What Would a Journey to the Black Hole Be Like?"
+              />
+              <div class="video-time">10:16</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@BRIGHTSIDEOFFICIAL/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-15.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-15.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">BRIGHT SIDE</div>
+                    <div class="channel-tooltip-stats">44.5M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/uRCX33VWOX0?si=ZC3M8RIxxdYb8Zsr"
+                target="_blank"
+              >
+                <p class="video-title">
+                  What Would a Journey to the Black Hole Be Like?
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@BRIGHTSIDEOFFICIAL/"
+                target="_blank"
+              >
+                <p class="video-author">BRIGHT SIDE &#10003;</p>
+              </a>
+              <p class="video-stats">11M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 16 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/oqxAJKy0ii4?si=bOhMr_2YZqEiv5eB"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-16.jpg"
+                alt="Squid Game | Official Trailer | Netflix"
+              />
+              <div class="video-time">2:18</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@Netflix/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-16.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-16.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Netflix</div>
+                    <div class="channel-tooltip-stats">27M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/oqxAJKy0ii4?si=bOhMr_2YZqEiv5eB"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Squid Game | Official Trailer | Netflix
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@Netflix/" target="_blank">
+                <p class="video-author">Netflix &#10003;</p>
+              </a>
+              <p class="video-stats">52M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 17 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/5U9fOyMLZgE?si=ROCKwyuZByd8wJ-t"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-17.jpg"
+                alt="Top 10 Craziest Concept Cars 2022"
+              />
+              <div class="video-time">26:34</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@SupercarBlondie/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-17.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-17.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Supercar Blondie</div>
+                    <div class="channel-tooltip-stats">15.2M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/5U9fOyMLZgE?si=ROCKwyuZByd8wJ-t"
+                target="_blank"
+              >
+                <p class="video-title">Top 10 Craziest Concept Cars 2022</p>
+              </a>
+              <a
+                href="https://www.youtube.com/@SupercarBlondie/"
+                target="_blank"
+              >
+                <p class="video-author">Supercar Blondie &#10003;</p>
+              </a>
+              <p class="video-stats">1.9M views &#183; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 18 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/id00R-3OmJ0?si=SUq8pL8iT5wwhbiL"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-18.jpg"
+                alt="Mystery of Titanic | How the World's Greatest Ship Disappeared? | Dhruv Rathee in Hindi"
+              />
+              <div class="video-time">17:43</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@dhruvrathee/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-18.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-18.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Dhruv Rathee</div>
+                    <div class="channel-tooltip-stats">12.9M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/id00R-3OmJ0?si=SUq8pL8iT5wwhbiL"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Mystery of Titanic | How the World's Greatest Ship
+                  Disappeared? | Dhruv...
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@dhruvrathee/" target="_blank">
+                <p class="video-author">Dhruv Rathee &#10003;</p>
+              </a>
+              <p class="video-stats">18M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 19 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/irqbmMNs2Bo?si=nDYBj6mKURltleOt"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-19.jpg"
+                alt="C Language Tutorial for Beginners (with Notes & Practice Questions)"
+              />
+              <div class="video-time">10:32:07</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@ApnaCollegeOfficial/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-19.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-19.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Apna College</div>
+                    <div class="channel-tooltip-stats">4.28M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/irqbmMNs2Bo?si=nDYBj6mKURltleOt"
+                target="_blank"
+              >
+                <p class="video-title">
+                  C Language Tutorial for Beginners (with Notes &#38; Practice
+                  Questions)
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@ApnaCollegeOfficial/videos"
+                target="_blank"
+              >
+                <p class="video-author">Apna College &#10003;</p>
+              </a>
+              <p class="video-stats">20M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 20 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/MysqcwTB4So?si=K-5dUse4wV9eiAg3"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-20.jpg"
+                alt="LA Food Truck Serves The Juiciest Tacos | Food Insider"
+              />
+              <div class="video-time">4:16</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@InsiderFood/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-20.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-20.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Insider Food</div>
+                    <div class="channel-tooltip-stats">4.79M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/MysqcwTB4So?si=K-5dUse4wV9eiAg3"
+                target="_blank"
+              >
+                <p class="video-title">
+                  LA Food Truck Serves The Juiciest Tacos | Food Insider
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@InsiderFood/" target="_blank">
+                <p class="video-author">Insider Food &#10003;</p>
+              </a>
+              <p class="video-stats">9.1M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 21 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/sr284c-q8oY?si=SD61j67gweJx90bT"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-21.jpg"
+                alt="My Solo Trip to ALASKA | Cruising From Vancouver to Anchorage"
+              />
+              <div class="video-time">10:05</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@allisonanderson/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-21.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-21.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Allison Anderson</div>
+                    <div class="channel-tooltip-stats">864K subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/sr284c-q8oY?si=SD61j67gweJx90bT"
+                target="_blank"
+              >
+                <p class="video-title">
+                  My Solo Trip to ALASKA | Cruising From Vancouver to Anchorage
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@allisonanderson/"
+                target="_blank"
+              >
+                <p class="video-author">Allison Anderson &#10003;</p>
+              </a>
+              <p class="video-stats">2.3M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 22 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/oI8trlbCbU8?si=SD5CTCIDNMfUw9v9"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-22.jpg"
+                alt="The Incredible Japanese Prison Break"
+              />
+              <div class="video-time">25:03</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@KentoBento/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-22.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-22.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Kento Bento</div>
+                    <div class="channel-tooltip-stats">1.65M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/oI8trlbCbU8?si=SD5CTCIDNMfUw9v9"
+                target="_blank"
+              >
+                <p class="video-title">The Incredible Japanese Prison Break</p>
+              </a>
+              <a href="https://www.youtube.com/@KentoBento/" target="_blank">
+                <p class="video-author">Kento Bento &#10003;</p>
+              </a>
+              <p class="video-stats">31M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 23 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/82DgSYIfmcE?si=XtAJwhY-0M7NuCq8"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-23.jpg"
+                alt="iPhone 15 and iPhone 15 Pro Colors (Models)"
+              />
+              <div class="video-time">9:30</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@unboxtherapy/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-23.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-23.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Unbox Therapy</div>
+                    <div class="channel-tooltip-stats">20.2M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/82DgSYIfmcE?si=XtAJwhY-0M7NuCq8"
+                target="_blank"
+              >
+                <p class="video-title">
+                  iPhone 15 and iPhone 15 Pro Colors (Models)
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@unboxtherapy/" target="_blank">
+                <p class="video-author">Unbox Therapy &#10003;</p>
+              </a>
+              <p class="video-stats">1M views &#183; 14 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 24 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/8mAITcNt710?si=S4JQQdCA3NKvOIp7"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-24.jpg"
+                alt="Harvard CS50 – Full Computer Science University Course"
+              />
+              <div class="video-time">24:51:37</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@freecodecamp/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-24.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-24.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">freeCodeCamp.org</div>
+                    <div class="channel-tooltip-stats">8.34M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/8mAITcNt710?si=S4JQQdCA3NKvOIp7"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Harvard CS50 – Full Computer Science University Course
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@freecodecamp/" target="_blank">
+                <p class="video-author">freeCodeCamp.org &#10003;</p>
+              </a>
+              <p class="video-stats">8.5M views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 25 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/pTn6Ewhb27k?si=Yl-W4x5Cu97LfPzj"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-25.jpg"
+                alt="Why No One Has Measured The Speed Of Light"
+              />
+              <div class="video-time">19:05</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@veritasium/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-25.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-25.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Veritasium</div>
+                    <div class="channel-tooltip-stats">14.2M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/pTn6Ewhb27k?si=Yl-W4x5Cu97LfPzj"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Why No One Has Measured The Speed Of Light
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@veritasium/" target="_blank">
+                <p class="video-author">Veritasium &#10003;</p>
+              </a>
+              <p class="video-stats">19M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 26 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/arj7oStGLkU?si=l9qpBWWNxEJ7xvA7"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-26.jpg"
+                alt="Tim Urban: Inside the mind of a master procrastinator | TED"
+              />
+              <div class="video-time">14:04</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TED/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-26.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-26.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">TED</div>
+                    <div class="channel-tooltip-stats">23.4M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/arj7oStGLkU?si=l9qpBWWNxEJ7xvA7"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Tim Urban: Inside the mind of a master procrastinator | TED
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@TED/" target="_blank">
+                <p class="video-author">TED &#10003;</p>
+              </a>
+              <p class="video-stats">53M views &#183; 7 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 27 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/bBC-nXj3Ng4?si=ofTf2CC1O-uiZOZn"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-27.jpg"
+                alt="But how does bitcoin actually work?"
+              />
+              <div class="video-time">25:16</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@3blue1brown/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-27.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-27.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">3Blue1Brown</div>
+                    <div class="channel-tooltip-stats">5.44M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/bBC-nXj3Ng4?si=ofTf2CC1O-uiZOZn"
+                target="_blank"
+              >
+                <p class="video-title">But how does bitcoin actually work?</p>
+              </a>
+              <a href="https://www.youtube.com/@3blue1brown/" target="_blank">
+                <p class="video-author">3Blue1Brown &#10003;</p>
+              </a>
+              <p class="video-stats">15M views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 28 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/gFQNPmLKj1k?si=a1Rimyca3Fzt_39J"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-28.jpg"
+                alt="How to Invest for Beginners"
+              />
+              <div class="video-time">29:09</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@aliabdaal/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-28.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-28.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Ali Abdaal</div>
+                    <div class="channel-tooltip-stats">4.73M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/gFQNPmLKj1k?si=a1Rimyca3Fzt_39J"
+                target="_blank"
+              >
+                <p class="video-title">How to Invest for Beginners</p>
+              </a>
+              <a href="https://www.youtube.com/@aliabdaal/" target="_blank">
+                <p class="video-author">Ali Abdaal &#10003;</p>
+              </a>
+              <p class="video-stats">8.7M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 29 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/lvgM39UgHbA?si=zTQDIyi0GvtgQ5qF"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-29.jpg"
+                alt="Secret To Getting Better At Talking To People"
+              />
+              <div class="video-time">5:32</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@ImprovementPill/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-29.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-29.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Improvement Pill</div>
+                    <div class="channel-tooltip-stats">3.45M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/lvgM39UgHbA?si=zTQDIyi0GvtgQ5qF"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Secret To Getting Better At Talking To People
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@ImprovementPill/"
+                target="_blank"
+              >
+                <p class="video-author">Improvement Pill &#10003;</p>
+              </a>
+              <p class="video-stats">6.8M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 30 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/Tqsz6fjvhZM?si=LyJ4fTYg1ijdeq0U"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-30.jpg"
+                alt="Hostel - Stand Up Comedy ft. Anubhav Singh Bassi"
+              />
+              <div class="video-time">17:11</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@AnubhavSinghBassi/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-30.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-30.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Anubhav Singh Bassi</div>
+                    <div class="channel-tooltip-stats">4.62M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/Tqsz6fjvhZM?si=LyJ4fTYg1ijdeq0U"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Hostel - Stand Up Comedy ft. Anubhav Singh Bassi
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@AnubhavSinghBassi/"
+                target="_blank"
+              >
+                <p class="video-author">Anubhav Singh Bassi &#10003;</p>
+              </a>
+              <p class="video-stats">71M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 31 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/7wtfhZwyrcc?si=DqIqvYqQUbBUr8t0"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-31.jpg"
+                alt="Imagine Dragons - Believer (Official Music Video)"
+              />
+              <div class="video-time">3:37</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@ImagineDragons/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-31.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-31.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">ImagineDragons</div>
+                    <div class="channel-tooltip-stats">31M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/7wtfhZwyrcc?si=DqIqvYqQUbBUr8t0"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Imagine Dragons - Believer (Official Music Video)
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@ImagineDragons/"
+                target="_blank"
+              >
+                <p class="video-author">ImagineDragons &#9834;</p>
+              </a>
+              <p class="video-stats">2.5B views &#183; 6 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 32 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/7dZmeh_28Eo?si=6zjUjfsvX-d9Gg-A"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-32.jpg"
+                alt="Why Japanese Chef’s Knives Are So Expensive | So Expensive"
+              />
+              <div class="video-time">9:54</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a
+                  href="https://www.youtube.com/@InsiderBusiness/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-32.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-32.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Insider Business</div>
+                    <div class="channel-tooltip-stats">8.22M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/7dZmeh_28Eo?si=6zjUjfsvX-d9Gg-A"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Why Japanese Chef’s Knives Are So Expensive | So Expensive
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@InsiderBusiness/"
+                target="_blank"
+              >
+                <p class="video-author">Insider Business &#10003;</p>
+              </a>
+              <p class="video-stats">19M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 33 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/1WEAJ-DFkHE?si=1ZquxE8MDkZDc1ym"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-33.jpg"
+                alt="$1 vs $500,000 Plane Ticket!"
+              />
+              <div class="video-time">12:20</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@MrBeast/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-33.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-33.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">MrBeast</div>
+                    <div class="channel-tooltip-stats">184M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/1WEAJ-DFkHE?si=1ZquxE8MDkZDc1ym"
+                target="_blank"
+              >
+                <p class="video-title">$1 vs $500,000 Plane Ticket!</p>
+              </a>
+              <a href="https://www.youtube.com/@MrBeast/" target="_blank">
+                <p class="video-author">MrBeast &#10003;</p>
+              </a>
+              <p class="video-stats">249M views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 34 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/PoJ73OXEEy0?si=XifR7XZ0DDX5LOaP"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-34.jpg"
+                alt="Kya hai Mr Hola ka plan? | Faisla | BB Ki Vines"
+              />
+              <div class="video-time">6:41</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@BBKiVines/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-34.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-34.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">BB Ki Vines</div>
+                    <div class="channel-tooltip-stats">26.3M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/PoJ73OXEEy0?si=XifR7XZ0DDX5LOaP"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Kya hai Mr Hola ka plan? | Faisla | BB Ki Vines
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@BBKiVines/" target="_blank">
+                <p class="video-author">BB Ki Vines &#10003;</p>
+              </a>
+              <p class="video-stats">56M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 35 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/bu6bCgfwUf4?si=pw5-ioRq56biQ-S5"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-35.jpg"
+                alt="I Went to Apple Park for the First Time *Vlog*"
+              />
+              <div class="video-time">9:04</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TechBurner/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-35.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-35.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Tech Burner</div>
+                    <div class="channel-tooltip-stats">10.9M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/bu6bCgfwUf4?si=pw5-ioRq56biQ-S5"
+                target="_blank"
+              >
+                <p class="video-title">
+                  I Went to Apple Park for the First Time *Vlog*
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@TechBurner/" target="_blank">
+                <p class="video-author">Tech Burner &#10003;</p>
+              </a>
+              <p class="video-stats">6.5M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 36 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/ROOeGPrC1Do?si=q4CPFc_dakZz4Wa3"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-36.jpg"
+                alt="FULL FILM: McLaren Speedtail vs F35 Fighter Jet | Top Gear"
+              />
+              <div class="video-time">6:55</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TopGear/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-36.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-36.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Top Gear</div>
+                    <div class="channel-tooltip-stats">8.76M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/ROOeGPrC1Do?si=q4CPFc_dakZz4Wa3"
+                target="_blank"
+              >
+                <p class="video-title">
+                  FULL FILM: McLaren Speedtail vs F35 Fighter Jet | Top Gear
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@TopGear/" target="_blank">
+                <p class="video-author">Top Gear &#10003;</p>
+              </a>
+              <p class="video-stats">31M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 37 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/Ov0YGGSY6gY?si=kb4dMxP7cWNr-Lme"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-37.jpg"
+                alt="KAUN TUJHE Lyrical | M.S. DHONI -THE UNTOLD STORY | Amaal Mallik Palak | Sushant Singh Disha Patani"
+              />
+              <div class="video-time">4:01</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@tseries/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-37.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-37.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">T-Series</div>
+                    <div class="channel-tooltip-stats">249M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/Ov0YGGSY6gY?si=kb4dMxP7cWNr-Lme"
+                target="_blank"
+              >
+                <p class="video-title">
+                  KAUN TUJHE Lyrical | M.S. DHONI -THE UNTOLD STORY | Amaal
+                  Mallik Palak...
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@tseries/" target="_blank">
+                <p class="video-author">T-Series &#10003;</p>
+              </a>
+              <p class="video-stats">550M views &#183; 7 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 38 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/1sZvwExPK4I?si=AYu1uxAengxBjw5m"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-38.jpg"
+                alt="Taarak Mehta Ka Ooltah Chashmah - Episode 434 - Full Episode"
+              />
+              <div class="video-time">17:39</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@SonySAB/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-38.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-38.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">Sony SAB</div>
+                    <div class="channel-tooltip-stats">85.5M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/1sZvwExPK4I?si=AYu1uxAengxBjw5m"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Taarak Mehta Ka Ooltah Chashmah - Episode 434 - Full Episode
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@SonySAB/" target="_blank">
+                <p class="video-author">Sony SAB &#10003;</p>
+              </a>
+              <p class="video-stats">12M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 39 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/COh8gsBLaUA?si=wsz6M-xobt9yWSFH"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-39.jpg"
+                alt="Top 10 Unscripted Friends Moments That Were Kept in the Show"
+              />
+              <div class="video-time">12:45</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@MsMojo/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-39.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-39.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">MsMojo</div>
+                    <div class="channel-tooltip-stats">5.11M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/COh8gsBLaUA?si=wsz6M-xobt9yWSFH"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Top 10 Unscripted Friends Moments That Were Kept in the Show
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@MsMojo/" target="_blank">
+                <p class="video-author">MsMojo &#10003;</p>
+              </a>
+              <p class="video-stats">5.5M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 40 -->
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/AFEZzf9_EHk?si=dlk-h7HlD-Cn30cT"
+              target="_blank"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-40.jpg"
+                alt="Rohit Sharma Hits 140! | India v Pakistan - Match Highlights | ICC Cricket World Cup 2019"
+              />
+              <div class="video-time">6:15</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@ICC/" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/channel-picture-40.jpg"
+                    alt="channel-picture"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="channel-pictures/channel-picture-40.jpg"
+                    alt="channel-picture"
+                  />
+                  <div>
+                    <div class="channel-tooltip-name">ICC</div>
+                    <div class="channel-tooltip-stats">10M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/AFEZzf9_EHk?si=dlk-h7HlD-Cn30cT"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Rohit Sharma Hits 140! | India v Pakistan - Match Highlights |
+                  ICC...
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@ICC/" target="_blank">
+                <p class="video-author">ICC &#10003;</p>
+              </a>
+              <p class="video-stats">106M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&#169; 2023 Google LLC</p>
+    </footer>
+  </body>
+</html>
